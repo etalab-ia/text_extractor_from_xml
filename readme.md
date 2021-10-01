@@ -23,8 +23,10 @@ Si tout s'est bien passé, un fichier json devrait être enregistré avec les m�
 
 <br>
 
-**2\. Extraire le texte.** Exéuter la commande suivante: 
+**2\. Extraire le texte.** Exécuter la commande suivante:
+
 ```
 python3 get_txt_files_from_xml.py dossier_input dossier_output DATABASE_NAME -info
 ```
+
 Cela enregistrera des fichiers au format .txt dans le dossier d'output. Un fichier log `text_extraction.log` sera créé si l'option `-info` est activée
