@@ -1,7 +1,9 @@
+# Extracteur de textes et de métadonnées des fichiers XML des décisions de justice
+
 ## Introduction
 
-Les fichiers *xml* des décisions adminsitratives ne sont pas facilement exploitables . 
-Ce répertoire permet d'extraire le texte et les méta données de ces fichiers 
+Les fichiers *xml* des décisions adminsitratives ne sont pas facilement exploitables. 
+Ce répertoire permet d'extraire le texte et les métadonnées de ces fichiers: 
 1. [get_meta_data_from_xml_folder.py](src/get_meta_data_from_xml_folder.py "get_meta_data_from_xml_folder.py") :  extrait les métadonnées des fichiers et les enregistre dans un fichier json
 2. [get_text_from_xml_folder.py](src/get_text_from_xml_folder.py) : extrait le texte des fichiers xml et les enregistre dans des fichiers txt 
 
